@@ -51,3 +51,7 @@ Windows例:
 ```
 
 仮想環境のPythonを使う場合は、`command` を `.venv` のPython実行ファイルに変更してください。
+
+## Confounders KBについて
+
+`confounders.json` は preliminary です。PubMed MCP と組み合わせてリアルタイムの文献根拠を取得することを推奨します。
