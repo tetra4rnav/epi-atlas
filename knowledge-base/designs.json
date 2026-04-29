@@ -1,0 +1,134 @@
+{
+  "cross-sectional": {
+    "name": "Cross-sectional study",
+    "description": "Measures exposure and outcome at a single point in time to estimate prevalence and associations.",
+    "when_to_use": "Best for prevalence estimation, hypothesis generation, and snapshot comparisons across groups.",
+    "strengths": [
+      "Fast and relatively low cost",
+      "Useful for estimating prevalence",
+      "Can evaluate multiple exposures and outcomes"
+    ],
+    "limitations": [
+      "Cannot establish temporal sequence",
+      "Vulnerable to reverse causation",
+      "Selection and survival bias may distort estimates"
+    ],
+    "key_confounders": [
+      "Age",
+      "Sex",
+      "Socioeconomic status",
+      "Healthcare access",
+      "Comorbidity burden"
+    ]
+  },
+  "cohort": {
+    "name": "Cohort study",
+    "description": "Follows exposed and unexposed groups over time to estimate incidence and risk differences.",
+    "when_to_use": "Best when exposure precedes outcome and you want incidence, risk, or prognosis estimates.",
+    "strengths": [
+      "Clearer temporality than cross-sectional designs",
+      "Can estimate incidence and relative risk",
+      "Supports multiple outcomes from one exposure"
+    ],
+    "limitations": [
+      "Can be time-consuming and costly",
+      "Loss to follow-up may bias results",
+      "Residual confounding remains a concern"
+    ],
+    "key_confounders": [
+      "Age",
+      "Baseline disease severity",
+      "Health behaviors",
+      "Healthcare utilization",
+      "Comorbid conditions"
+    ]
+  },
+  "case-control": {
+    "name": "Case-control study",
+    "description": "Compares prior exposures between people with an outcome (cases) and without (controls).",
+    "when_to_use": "Best for rare outcomes or long-latency diseases when prospective follow-up is impractical.",
+    "strengths": [
+      "Efficient for rare outcomes",
+      "Faster and cheaper than many cohort studies",
+      "Can assess multiple exposures for one outcome"
+    ],
+    "limitations": [
+      "Cannot directly estimate incidence",
+      "Recall and selection bias are common",
+      "Control selection can be difficult"
+    ],
+    "key_confounders": [
+      "Age",
+      "Sex",
+      "Smoking",
+      "Socioeconomic status",
+      "Comorbidity history"
+    ]
+  },
+  "ecological": {
+    "name": "Ecological study",
+    "description": "Analyzes associations using group-level data (e.g., regions, schools, countries) rather than individual-level data.",
+    "when_to_use": "Best for policy comparisons, broad population trends, and hypotheses using aggregate data.",
+    "strengths": [
+      "Useful when only aggregate data are available",
+      "Good for broad policy and geographic comparisons",
+      "Can be fast using existing datasets"
+    ],
+    "limitations": [
+      "Ecological fallacy risk",
+      "Limited adjustment for individual confounders",
+      "Measurement heterogeneity across groups"
+    ],
+    "key_confounders": [
+      "Population age structure",
+      "Income inequality",
+      "Healthcare system capacity",
+      "Urbanization",
+      "Testing or surveillance intensity"
+    ]
+  },
+  "RCT": {
+    "name": "Randomized controlled trial",
+    "description": "Randomly allocates interventions to estimate causal effects with reduced confounding.",
+    "when_to_use": "Best for intervention effectiveness or efficacy when randomization is feasible and ethical.",
+    "strengths": [
+      "Strong internal validity for causal inference",
+      "Balances measured and unmeasured confounders on average",
+      "Clear intervention-outcome linkage"
+    ],
+    "limitations": [
+      "Expensive and operationally complex",
+      "Ethical and feasibility constraints",
+      "May have limited external validity"
+    ],
+    "key_confounders": [
+      "Non-adherence",
+      "Co-interventions",
+      "Differential loss to follow-up",
+      "Center-level practice variation",
+      "Baseline prognostic imbalance by chance"
+    ]
+  },
+  "natural experiment": {
+    "name": "Natural experiment",
+    "description": "Uses external or policy-driven variation in exposure assignment to infer causal effects.",
+    "when_to_use": "Best when randomization is impossible but a plausibly exogenous event or policy change exists.",
+    "strengths": [
+      "Can estimate causal effects in real-world settings",
+      "Useful for policy evaluation",
+      "Often improves external validity versus tightly controlled trials"
+    ],
+    "limitations": [
+      "Identification assumptions can be hard to verify",
+      "Potential for concurrent secular trends",
+      "Design quality depends on the natural assignment process"
+    ],
+    "key_confounders": [
+      "Secular time trends",
+      "Regional policy differences",
+      "Migration and population composition shifts",
+      "Concurrent interventions",
+      "Differential measurement over time"
+    ]
+  }
+}
