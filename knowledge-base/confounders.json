@@ -1,0 +1,266 @@
+{
+  "cardiovascular disease": {
+    "domain": "cardiovascular disease",
+    "pubmed_search_terms": [
+      "cardiovascular disease confounding",
+      "hypertension smoking age sex confounders",
+      "cardiovascular epidemiology adjustment variables"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Strongly associated with cardiovascular risk and with many environmental and behavioral exposures.",
+        "references": []
+      },
+      {
+        "variable": "sex",
+        "rationale": "Cardiovascular incidence differs by sex and sex is correlated with exposure distributions.",
+        "references": []
+      },
+      {
+        "variable": "smoking status",
+        "rationale": "Smoking is a major cardiovascular risk factor and co-varies with many social and lifestyle exposures.",
+        "references": []
+      },
+      {
+        "variable": "socioeconomic status",
+        "rationale": "Socioeconomic position influences both exposure opportunities and cardiovascular outcomes.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "diabetes / metabolic": {
+    "domain": "diabetes / metabolic",
+    "pubmed_search_terms": [
+      "type 2 diabetes confounding factors",
+      "metabolic syndrome epidemiology confounders",
+      "obesity physical activity diabetes confounding"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Diabetes risk rises with age and age correlates with many exposures of interest.",
+        "references": []
+      },
+      {
+        "variable": "sex",
+        "rationale": "Metabolic risk profiles and exposure patterns differ by sex.",
+        "references": []
+      },
+      {
+        "variable": "body mass index (BMI)",
+        "rationale": "BMI is strongly linked to diabetes outcomes and related to diet and activity exposures.",
+        "references": []
+      },
+      {
+        "variable": "physical activity",
+        "rationale": "Physical activity affects glycemic outcomes and is associated with many behavioral exposures.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "mental health": {
+    "domain": "mental health",
+    "pubmed_search_terms": [
+      "mental health epidemiology confounding",
+      "depression anxiety confounders socioeconomic",
+      "psychiatric outcomes adjustment variables"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Mental health prevalence and severity vary by age and age is related to many social exposures.",
+        "references": []
+      },
+      {
+        "variable": "sex/gender",
+        "rationale": "Mental health outcomes and exposure patterns often differ by sex/gender.",
+        "references": []
+      },
+      {
+        "variable": "socioeconomic status",
+        "rationale": "SES influences stressors, treatment access, and mental health outcomes.",
+        "references": []
+      },
+      {
+        "variable": "substance use",
+        "rationale": "Substance use is linked to both mental health outcomes and many candidate exposures.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "respiratory disease": {
+    "domain": "respiratory disease",
+    "pubmed_search_terms": [
+      "respiratory disease confounders epidemiology",
+      "asthma copd smoking air pollution confounding",
+      "lung function observational study adjustment"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Baseline respiratory risk and lung decline are age-related.",
+        "references": []
+      },
+      {
+        "variable": "smoking status",
+        "rationale": "Smoking strongly affects respiratory outcomes and is associated with social and occupational exposures.",
+        "references": []
+      },
+      {
+        "variable": "occupational exposure",
+        "rationale": "Workplace inhalation risks affect outcomes and correlate with socioeconomic factors.",
+        "references": []
+      },
+      {
+        "variable": "ambient air pollution exposure",
+        "rationale": "Air pollution is associated with respiratory outcomes and with neighborhood-level exposures.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "cancer": {
+    "domain": "cancer",
+    "pubmed_search_terms": [
+      "cancer epidemiology confounding",
+      "cancer risk factors age smoking confounders",
+      "oncology observational study adjustment variables"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Cancer incidence strongly increases with age across many sites.",
+        "references": []
+      },
+      {
+        "variable": "sex",
+        "rationale": "Cancer incidence and exposure patterns vary by sex.",
+        "references": []
+      },
+      {
+        "variable": "smoking status",
+        "rationale": "Smoking is a major risk factor for multiple cancers and correlates with many exposures.",
+        "references": []
+      },
+      {
+        "variable": "family history of cancer",
+        "rationale": "Inherited predisposition influences cancer outcomes and may correlate with screening behavior.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "housing / social determinants": {
+    "domain": "housing / social determinants",
+    "pubmed_search_terms": [
+      "housing health confounding",
+      "social determinants epidemiology confounders",
+      "neighborhood deprivation health outcomes adjustment"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "income",
+        "rationale": "Income affects housing conditions and independently affects health outcomes.",
+        "references": []
+      },
+      {
+        "variable": "education",
+        "rationale": "Education shapes employment, health literacy, and access to resources.",
+        "references": []
+      },
+      {
+        "variable": "employment status",
+        "rationale": "Employment determines economic stability and access to housing and care.",
+        "references": []
+      },
+      {
+        "variable": "race/ethnicity",
+        "rationale": "Structural inequities linked to race/ethnicity influence both housing exposures and health.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "nutrition / diet": {
+    "domain": "nutrition / diet",
+    "pubmed_search_terms": [
+      "nutrition epidemiology confounding",
+      "dietary intake confounders observational study",
+      "energy intake BMI diet health outcomes adjustment"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Diet patterns and many health outcomes vary strongly with age.",
+        "references": []
+      },
+      {
+        "variable": "sex",
+        "rationale": "Nutrient intake patterns and disease risk differ by sex.",
+        "references": []
+      },
+      {
+        "variable": "total energy intake",
+        "rationale": "Total intake is correlated with specific nutrients and with metabolic outcomes.",
+        "references": []
+      },
+      {
+        "variable": "physical activity",
+        "rationale": "Physical activity is associated with diet behaviors and many outcomes.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  },
+  "infectious disease": {
+    "domain": "infectious disease",
+    "pubmed_search_terms": [
+      "infectious disease confounding epidemiology",
+      "vaccine effectiveness confounders",
+      "infection risk observational study adjustment variables"
+    ],
+    "seed_confounders": [
+      {
+        "variable": "age",
+        "rationale": "Age affects exposure patterns, immune response, and disease severity.",
+        "references": []
+      },
+      {
+        "variable": "comorbidity burden",
+        "rationale": "Baseline chronic conditions influence susceptibility and severity and may correlate with exposures.",
+        "references": []
+      },
+      {
+        "variable": "vaccination status",
+        "rationale": "Vaccination changes risk of infection and is associated with healthcare-seeking behavior.",
+        "references": []
+      },
+      {
+        "variable": "healthcare access",
+        "rationale": "Access influences both detection probability and outcomes.",
+        "references": []
+      }
+    ],
+    "kb_status": "preliminary",
+    "review_method": "pending_scoping_review",
+    "last_verified": "2026-04"
+  }
+}
