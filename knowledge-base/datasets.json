@@ -1,0 +1,102 @@
+{
+  "NHANES": {
+    "name": "National Health and Nutrition Examination Survey (NHANES)",
+    "description": "A nationally representative survey that combines interviews, physical examinations, and laboratory measures in the U.S.",
+    "unit_of_analysis": "individual",
+    "geographic_coverage": "United States (national sample)",
+    "temporal_coverage": "Continuous cycles (1999-present)",
+    "key_domains": [
+      "chronic disease",
+      "nutrition",
+      "cardiometabolic health",
+      "mental health",
+      "environmental exposures"
+    ],
+    "access": {
+      "public_use_file": true,
+      "cost": "free",
+      "registration_required": false
+    },
+    "url": "https://www.cdc.gov/nchs/nhanes/"
+  },
+  "BRFSS": {
+    "name": "Behavioral Risk Factor Surveillance System (BRFSS)",
+    "description": "A state-based telephone survey of health behaviors, risk factors, and preventive service use among U.S. adults.",
+    "unit_of_analysis": "individual",
+    "geographic_coverage": "United States (state and some local estimates)",
+    "temporal_coverage": "Annual (1984-present)",
+    "key_domains": [
+      "chronic disease",
+      "health behaviors",
+      "preventive care",
+      "mental health",
+      "social determinants of health"
+    ],
+    "access": {
+      "public_use_file": true,
+      "cost": "free",
+      "registration_required": false
+    },
+    "url": "https://www.cdc.gov/brfss/"
+  },
+  "CDC PLACES": {
+    "name": "CDC PLACES",
+    "description": "Model-based local estimates for health outcomes, prevention, and health risk behaviors for counties, places, census tracts, and ZIP Code Tabulation Areas.",
+    "unit_of_analysis": "area-level",
+    "geographic_coverage": "United States (county, place, census tract, ZCTA)",
+    "temporal_coverage": "Periodic releases (recent years, annual-style updates)",
+    "key_domains": [
+      "chronic disease",
+      "health behaviors",
+      "prevention",
+      "small area estimation",
+      "community health"
+    ],
+    "access": {
+      "public_use_file": true,
+      "cost": "free",
+      "registration_required": false
+    },
+    "url": "https://www.cdc.gov/places/"
+  },
+  "ACS (American Community Survey)": {
+    "name": "American Community Survey (ACS)",
+    "description": "An ongoing U.S. Census Bureau survey providing annual estimates on demographic, social, economic, and housing characteristics.",
+    "unit_of_analysis": "individual/area-level",
+    "geographic_coverage": "United States and Puerto Rico (multiple geographic levels)",
+    "temporal_coverage": "Annual 1-year and 5-year estimates (2005-present)",
+    "key_domains": [
+      "socioeconomic status",
+      "housing",
+      "education",
+      "employment",
+      "demographics"
+    ],
+    "access": {
+      "public_use_file": true,
+      "cost": "free",
+      "registration_required": false
+    },
+    "url": "https://www.census.gov/programs-surveys/acs"
+  },
+  "Eviction Lab": {
+    "name": "Eviction Lab National Database",
+    "description": "A longitudinal database of eviction filings and eviction rates with geographic detail across the United States.",
+    "unit_of_analysis": "area-level",
+    "geographic_coverage": "United States (national, state, county, city where available)",
+    "temporal_coverage": "Historical panel with ongoing updates (varies by location)",
+    "key_domains": [
+      "housing",
+      "eviction",
+      "poverty",
+      "neighborhood inequality",
+      "social determinants of health"
+    ],
+    "access": {
+      "public_use_file": true,
+      "cost": "free",
+      "registration_required": false
+    },
+    "url": "https://evictionlab.org/"
+  }
+}
